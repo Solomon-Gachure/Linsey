@@ -11,13 +11,13 @@ const Contact = () => {
       {/**About section */}
        
          <div className='border max-w-[1200px] rounded-lg bg-stone-900 flex flex-col justify-center items-center md:grid grid-cols-2 p-4 m-2  '>
-          <div className='h-[200px] w-[200px] md:h-[300px] md:w-[300px] border rounded-full  '>
+          <div className='h-[200px] w-[200px] md:h-[300px] md:w-[300px]  rounded-full  '>
             <img 
             className='h-full w-full object-cover rounded-full' 
           src="https://img.freepik.com/free-photo/portrait-person-daily-life-new-york-city_23-2150820014.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
            alt="profile" />
           </div>
-           <div className='flex flex-col border  items-center'>
+           <div className='flex flex-col   items-center'>
             <h1 className='font-bold text-teal-300 text-lg border-b'>Who I'm I?</h1>
            <p className=''>
             With unparalleled artistry and an exquisite eye for detail,
