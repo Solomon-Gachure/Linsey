@@ -49,7 +49,7 @@ const Contact = () => {
             <FaInstagram size={30} className='hover:scale-105 duration-300 cursor-pointer' />
             <FaTiktok size={30} className='hover:scale-105 duration-300 cursor-pointer' />
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp size={30} className='hover:scale-105 duration-300 cursor-pointer' a href='https://web.whatsapp.com/' />
+              <FaWhatsapp size={30} className='hover:scale-105 duration-300 cursor-pointer' />
             </a>
             
           </div>
