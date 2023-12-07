@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import "../pages/makeup"
 const Home = () => {
   return (
     <div className='max-w-[1400px] h-full bg-stone-900 text-white p-2  font-bold pt-16'>
@@ -34,7 +35,7 @@ const Home = () => {
              Dee's commitment to excellence in makeup services is nothing short of extraordinary.
           </p>
           <div className='p-2'>
-            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'>View More</button>
+            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'><Link to="/makeup" >View More</Link></button>
           </div>
         </div>
         <div className='border rounded-lg border-amber-400 flex  flex-col items-center p-2'>
