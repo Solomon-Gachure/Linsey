@@ -2,10 +2,12 @@ import React from 'react'
 import {FaFacebook, FaInstagram, FaTiktok, FaWhatsapp} from 'react-icons/fa'
  
 const Contact = () => {
-  const WhatsAppLink = ({ phoneNumber, message }) => {
-    return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-  };
-  const whatsappLink = WhatsAppLink({ phoneNumber: "0798605270", message: "Hello welcome to Dee makeup!" });
+  const WhatsAppLink = ()=>{
+    const number='+254798605270'
+    const message="welcome to dee makeup services!"
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${number}&text=${encodeURIComponent(message)}`;
+    window.location.href = whatsappUrl;
+  }
   return (
     <div className='max-w-[1400px] h-full bg-stone-900 text-white p-2  font-bold pt-16'>
       {/**About section */}
@@ -48,9 +50,9 @@ const Contact = () => {
             <FaFacebook size={30} className='hover:scale-105 duration-300 cursor-pointer' />
             <FaInstagram size={30} className='hover:scale-105 duration-300 cursor-pointer' />
             <FaTiktok size={30} className='hover:scale-105 duration-300 cursor-pointer' />
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp size={30} className='hover:scale-105 duration-300 cursor-pointer' />
-            </a>
+            
+              <FaWhatsapp size={30} target='_blank' onClick={WhatsAppLink} className='hover:scale-105 duration-300 cursor-pointer' />
+            
             
           </div>
         </div>
