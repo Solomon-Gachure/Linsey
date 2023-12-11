@@ -18,7 +18,7 @@ const Home = () => {
           
           <h1 className='text-3xl md:text-6xl text-amber-500 font-bold z-10'>Welcome to Dee GlowUp</h1>
          <p className='text-xl md:text-4xl font-bold'>We offer great services in Make up</p>
-         <p className=' md:text-2xl font-bold'>Come experience professionalism at a cheap cost!</p>
+         <p className=' md:text-2xl font-bold text-center'>Come experience professionalism at a cheap cost!</p>
          </div>
          
       </div>
@@ -73,7 +73,7 @@ const Home = () => {
            
           <label className='md:text-lg' for="">Email: <input type="text" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='Enter Email' /></label>
           
-          <label className='md:text-lg' for="">Telephone: <input type="tel" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='xxxx-xxx-xxx' required /></label>
+          <label className='md:text-lg' for="">Phone: <input type="tel" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='xxxx-xxx-xxx' required /></label>
 
           <label className='md:text-lg' for="choices">Select a Choice:       <select id="choices" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' name="choices">
   <option value="choice" className='text-stone-400'>Choice</option>
