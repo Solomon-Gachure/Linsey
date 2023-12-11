@@ -4,6 +4,8 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import Error from "./pages/error";
 import Makeup from "./pages/makeup";
+import Nails from "./pages/nails";
+import Hair from "./pages/hair";
 
 function App() {
   const router= createBrowserRouter(
@@ -12,6 +14,10 @@ function App() {
       <Route index element={<Home/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/makeup" element={<Makeup/>} />
+      <Route path="/nails" element={<Nails/>} />
+      <Route path="/hair" element={<Hair/>} />
+
+
 
       <Route path="*" element={<Error/>} />
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../pages/makeup"
+import "../pages/nails"
+
 const Home = () => {
   return (
     <div className='max-w-[1400px] h-full bg-stone-900 text-white p-2  font-bold pt-16'>
@@ -57,7 +59,7 @@ const Home = () => {
              Dee's commitment to excellence in hair makeup services establishes her as a trendsetter in crafting unique and captivating looks.
           </p>
           <div className='p-2'>
-            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'>View More</button>
+            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'><Link to="/hair">View More</Link></button>
           </div>
         </div>
       </div>
