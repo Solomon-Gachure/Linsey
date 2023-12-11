@@ -46,7 +46,7 @@ const Home = () => {
              Dee Glow Up's commitment to perfection in every detail makes her the epitome of excellence in the world of nail aesthetics.
           </p>
           <div className='p-2'>
-            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'>View More</button>
+            <button className='p-2 font-bold bg-fuchsia-500 rounded-lg'><Link to="/nails">View More</Link> </button>
           </div>
         </div>
         <div className='border rounded-lg border-amber-400 flex  flex-col items-center p-2'>
