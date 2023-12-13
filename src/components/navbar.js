@@ -16,10 +16,7 @@ const Navbar = () => {
             <NavLink to="/contact">Contact</NavLink>
 
         </ul>
-        <div>
-            <CiLight size={30} className='text-white font-bold'/>
-            
-        </div>
+        
 
     </nav>
          </div>

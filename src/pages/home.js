@@ -17,7 +17,7 @@ const Home = () => {
          <div className='absolute flex flex-col justify-center items-center inset-0 z-10'>
           
           <h1 className='text-3xl md:text-6xl text-amber-500 font-bold z-10'>Welcome to Dee GlowUp</h1>
-         <p className='text-xl md:text-4xl font-bold'>We offer great services in Make up</p>
+         <p className='text-xl md:text-4xl font-bold text-center'>We offer great services in Make up</p>
          <p className=' md:text-2xl font-bold text-center'>Come experience professionalism at a cheap cost!</p>
          </div>
          
@@ -68,14 +68,14 @@ const Home = () => {
       <div className='flex flex-col justify-center items-center p-2 '>
         <div className='border p-2 md:w-[700px] flex  flex-col justify-center items-center rounded-lg z-50 bg-cyan-400/30 bg-opacity-80 backdrop-blur-xl backdrop-filter:blur(16px) bg-clip-padding'>
           <h3 className='md:text-2xl'>Book with us</h3>
-        <form action="" className='flex flex-col p-2 gap-4' method="post">
-          <label className='md:text-lg' for="">Name: <input type="text" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='Enter Name' required /> </label>
+        <form action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" className='flex flex-col p-2 gap-4' method="POST">
+          <label className='md:text-lg' for="">Name: <input type="text" name='name' className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='Enter Name' required /> </label>
            
-          <label className='md:text-lg' for="">Email: <input type="text" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='Enter Email' /></label>
+          <label className='md:text-lg' for="">Email: <input type="text" name='email' className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='Enter Email' /></label>
           
-          <label className='md:text-lg' for="">Phone: <input type="tel" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='xxxx-xxx-xxx' required /></label>
+          <label className='md:text-lg' for="">Phone: <input type="tel " name='name' className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' placeholder='xxxx-xxx-xxx' required /></label>
 
-          <label className='md:text-lg' for="choices">Select a Choice:       <select id="choices" className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' name="choices">
+          <label className='md:text-lg' for="choices">Select a Choice:       <select id="choices"  className='text-amber-500 p-2 rounded-lg bg-transparent border outline-none' name="choices">
   <option value="choice" className='text-stone-400'>Choice</option>
   <option value="makeup" className='text-stone-400'>Makeup</option>
   <option value="nail" className='text-stone-400'>Nail</option>

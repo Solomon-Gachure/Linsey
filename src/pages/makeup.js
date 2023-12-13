@@ -7,6 +7,7 @@ const Makeup = () => {
        <div className='flex justify-center items-center'>
         <h1 className='text-3xl md:text-4xl'>Makeup Collage</h1>
        </div>
+       
        {/** divs for the different collage for makeups: eye and nail as well*/}
        <div>
         <div>
@@ -39,6 +40,7 @@ const Makeup = () => {
           </div>
         </div>
        </div>
+       
     </div>
   )
 }
