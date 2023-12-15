@@ -6,7 +6,7 @@ const Nails = () => {
     <div className='pt-16 h-full text-white font-bold bg-red-300'>
         {/**collage for nails */}
        <div className='flex justify-center items-center'>
-        <h1 className='text-3xl md:text-4xl'>Makeup Collage</h1>
+        <h1 className='text-3xl md:text-4xl'>Nailwork Collage</h1>
        </div>
        {/** divs for the different collage for nails: eye and nail as well*/}
        <div>
