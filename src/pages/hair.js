@@ -5,12 +5,12 @@ const Hair = () => {
    <div className='pt-16 h-full text-white font-bold bg-red-300'>
         {/**collage for nails */}
        <div className='flex justify-center items-center'>
-        <h1 className='text-3xl md:text-4xl'>Hairwork Collage</h1>
+        <h1 className='text-3xl md:text-4xl'>HairWork Collage</h1>
        </div>
        {/** divs for the different collage for nails: eye and nail as well*/}
        <div>
         <div>
-          <h1 className=' flex justify-center md:text-3xl text-pink-500 font-bold items-center'>Eye Makeup</h1>
+          <h1 className=' flex justify-center md:text-3xl text-pink-500 font-bold items-center'>Hairwork GlowUp</h1>
           <div className='grid  md:grid-cols-3 row-span-2 bg-red-300  p-2 gap-2'>
             <div className='h-[300px] border '>
             <img 
