@@ -5,9 +5,9 @@ import "../pages/nails"
 
 const Home = () => {
   return (
-    <div className='max-w-[1400px] h-full bg-stone-900 text-white p-2  font-bold pt-16'>
-      <div className='relative h-full w-full  flex bg-stone-900   '>
-        <div className='relative h-[500px] w-full flex   '>
+    <div className='  bg-stone-900 text-white p-2  font-bold pt-16'>
+      <div className='relative h-full w-full   flex bg-stone-900   '>
+        <div className='relative h-[500px] w-full flex    '>
           
         <img 
         className='object-cover w-full h-full' 
@@ -16,7 +16,7 @@ const Home = () => {
          <div className='bg-black/30 top-0 left-0 h-full w-full absolute z-10'/>
          <div className='absolute flex flex-col justify-center items-center inset-0 z-10'>
           
-          <h1 className='text-3xl md:text-6xl text-amber-500 font-bold z-10'>Welcome to Dee GlowUp</h1>
+          <h1 className='text-3xl md:text-6xl text-center  text-amber-500 font-bold z-10'>Welcome to Dee GlowUp</h1>
          <p className='text-xl md:text-4xl font-bold text-center'>We offer great services in Make up</p>
          <p className=' md:text-2xl font-bold text-center'>Come experience professionalism at a cheap cost!</p>
          </div>

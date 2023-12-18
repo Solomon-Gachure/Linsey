@@ -9,7 +9,7 @@ const Contact = () => {
     window.location.href = whatsappUrl;
   }
   return (
-    <div className='max-w-[1400px] h-full bg-stone-900 text-white p-2  font-bold pt-16'>
+    <div className=' h-full w-full bg-stone-900 text-white p-2 flex flex-col justify-center items-center  font-bold pt-16'>
       {/**About section */}
        
          <div className='border max-w-[1200px] rounded-lg bg-stone-900 flex flex-col justify-center items-center md:grid grid-cols-2 p-4 m-2  '>
