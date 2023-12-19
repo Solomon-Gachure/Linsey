@@ -85,7 +85,11 @@ const Home = () => {
 <div className='flex justify-center items-center'>
   <button className='p-2 font-bold border bg-black/30 w-[200px] text-xl'>Book</button>
 </div>
+
         </form>
+        <div className='flex justify-center items-center'>
+  <button className='p-2 font-bold border bg-black/30 w-[200px] text-xl'><Link to="payment">Pay Now</Link></button>
+</div>
       </div>
         </div>
     </div>
