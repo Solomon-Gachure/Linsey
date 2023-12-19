@@ -6,6 +6,7 @@ import Error from "./pages/error";
 import Makeup from "./pages/makeup";
 import Nails from "./pages/nails";
 import Hair from "./pages/hair";
+import Payment from "./pages/payment";
 
 function App() {
   const router= createBrowserRouter(
@@ -16,6 +17,8 @@ function App() {
       <Route path="/makeup" element={<Makeup/>} />
       <Route path="/nails" element={<Nails/>} />
       <Route path="/hair" element={<Hair/>} />
+      <Route path="/payment" element={<Payment/>} />
+
 
 
 
