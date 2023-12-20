@@ -8,6 +8,10 @@ const Contact = () => {
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${number}&text=${encodeURIComponent(message)}`;
     window.location.href = whatsappUrl;
   }
+  const handleSubmit=(e)=>{
+    
+    alert("Thank you for your submission!")
+  }
   return (
     <div className=' h-full w-full bg-stone-900 text-white p-2 flex flex-col justify-center items-center  font-bold pt-16'>
       {/**About section */}
@@ -34,7 +38,7 @@ const Contact = () => {
         <div className='bg-stone-900 flex flex-col justify-center items-center'>
           <h1 className='text-xl text-teal-300'>Contact Me:</h1>
           <div className='h-[300px] w-[300px]'>
-            <form action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" method='POST' className='flex flex-col items-center h-full w-full  p-2 gap-2 text-black'>
+            <form onSubmit={handleSubmit} action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" method='POST' className='flex flex-col items-center h-full w-full  p-2 gap-2 text-black'>
               <input className='w-[300px] p-2 outline-none bg-transparent text-white border' required type="text" name='name' placeholder='Enter Name' />
               <input className='w-[300px] p-2 outline-none bg-transparent text-white border' required type="text" name='email' placeholder='Enter Email' />
 <textarea className='w-[300px] p-2 outline-none bg-transparent text-white border' required name="message" id="" cols="25" rows="5" placeholder='Enter Message'></textarea>
