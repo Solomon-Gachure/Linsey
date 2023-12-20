@@ -15,25 +15,25 @@ const Hair = () => {
             <div className='h-[300px] border '>
             <img 
             className='h-full w-full object-cover' 
-          src="https://img.freepik.com/premium-photo/close-up-beautiful-woman-with-red-manicure-nail-polis_1001743-7393.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
+          src="https://img.freepik.com/free-photo/woman-with-pink-dress-gold-necklace_1340-27999.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
            alt="eye makeups" />
           </div>
           <div className='h-[300px]  border'>
             <img 
             className='h-full w-full object-cover' 
-          src="https://img.freepik.com/premium-photo/woman-with-long-black-hair-red-background_908846-4111.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
+          src="https://img.freepik.com/premium-photo/afro-hair-braided-cornrow-hairstyle-using-synthetic-hair-extensions-ai-generated_201606-8041.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
            alt="eye makeups" />
           </div>
           <div className='md:h-full h-[200px]  border  md:row-span-2'>
             <img 
             className='h-full w-full object-cover' 
-          src="https://img.freepik.com/premium-photo/woman-with-bright-pink-eye-shadow-bright-pink-eye-shadow_759095-29677.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
+          src="https://img.freepik.com/premium-photo/photo-cornrows_889056-2449.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
            alt="eye makeups" />
           </div>
           <div className='h-[300px]  w-[300px] md:w-full border md:col-span-2'>
             <img 
             className='h-full w-full object-cover ' 
-          src="https://img.freepik.com/premium-photo/fashion-woman-portrait-with-bright-make-up-generative-ai_90153-4469.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
+          src="https://img.freepik.com/premium-photo/black-woman-confidence-shines-brightly-rooted-her-heritage-beauty-concept_975188-10417.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
            alt="eye makeups" />
           </div>
           </div>
