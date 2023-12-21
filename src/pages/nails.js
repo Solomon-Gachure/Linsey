@@ -17,25 +17,25 @@ const Nails = () => {
             <img 
             className='h-full w-full object-cover' 
           src="https://img.freepik.com/free-photo/delicately-colored-nails-lips_1268-27150.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
-           alt="eye makeups" />
+           alt="nails makeups" />
           </div>
           <div className='h-[300px]  border'>
             <img 
             className='h-full w-full object-cover' 
           src="https://img.freepik.com/premium-photo/woman-with-red-nails-red-lipstick_197463-5924.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
-           alt="eye makeups" />
+           alt="nails makeups" />
           </div>
           <div className='md:h-full h-[200px]  border  md:row-span-2'>
             <img 
             className='h-full w-full object-cover' 
           src="https://img.freepik.com/premium-photo/person-with-yellow-black-nail-art-design-with-stars-it_655090-86686.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
-           alt="eye makeups" />
+           alt="nails makeups" />
           </div>
           <div className='h-[300px]  w-[300px] md:w-full border md:col-span-2'>
             <img 
             className='h-full w-full object-cover ' 
           src="https://img.freepik.com/premium-photo/cinematic-moments-captured-by-sony-alpha-a7-iii-camera_925962-20506.jpg?ga=GA1.2.134876288.1693412887&semt=ais_ai_generated"
-           alt="eye makeups" />
+           alt="nails makeups" />
           </div>
           </div>
         </div>
